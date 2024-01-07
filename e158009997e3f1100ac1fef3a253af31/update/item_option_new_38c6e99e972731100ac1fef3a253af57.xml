@@ -19,12 +19,12 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>applicant_type</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>true</include_none>
+        <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -36,16 +36,16 @@
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>applicant_type</name>
-        <order>300</order>
+        <name>email</name>
+        <order>900</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Applicant Type</question_text>
+        <question_text>Email</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -54,8 +54,8 @@
         <record/>
         <record_producer_table>x_1020172_work_m_0_wm_job_details</record_producer_table>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -73,24 +73,24 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-07 15:23:09</sys_created_on>
-        <sys_id>f5a0e196972731100ac1fef3a253af3d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Applicant Type</sys_name>
+        <sys_created_on>2024-01-07 15:23:08</sys_created_on>
+        <sys_id>38c6e99e972731100ac1fef3a253af57</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Email</sys_name>
         <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
-        <sys_update_name>item_option_new_f5a0e196972731100ac1fef3a253af3d</sys_update_name>
+        <sys_update_name>item_option_new_38c6e99e972731100ac1fef3a253af57</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-07 15:25:18</sys_updated_on>
+        <sys_updated_on>2024-01-07 15:25:19</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex/>
+        <validate_regex display_value="Email">e005e481530020107d13ddeeff7b12e5</validate_regex>
         <variable_name/>
         <variable_set/>
         <variable_width/>
@@ -101,22 +101,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=f5a0e196972731100ac1fef3a253af3d"/>
-    <fx_price action="delete_multiple" query="id=f5a0e196972731100ac1fef3a253af3d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=38c6e99e972731100ac1fef3a253af57"/>
+    <fx_price action="delete_multiple" query="id=38c6e99e972731100ac1fef3a253af57"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>f5a0e196972731100ac1fef3a253af3d</id>
+        <id>38c6e99e972731100ac1fef3a253af57</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-07 14:46:10</sys_created_on>
-        <sys_id>94f02996972731100ac1fef3a253afe6</sys_id>
+        <sys_created_on>2024-01-07 15:12:46</sys_created_on>
+        <sys_id>0e07a5de972731100ac1fef3a253afa0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-07 14:46:10</sys_updated_on>
+        <sys_updated_on>2024-01-07 15:12:46</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -124,16 +124,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>f5a0e196972731100ac1fef3a253af3d</id>
+        <id>38c6e99e972731100ac1fef3a253af57</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-07 14:46:10</sys_created_on>
-        <sys_id>50f02996972731100ac1fef3a253afe5</sys_id>
+        <sys_created_on>2024-01-07 15:12:46</sys_created_on>
+        <sys_id>8207a5de972731100ac1fef3a253afa0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-07 14:46:10</sys_updated_on>
+        <sys_updated_on>2024-01-07 15:12:46</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
