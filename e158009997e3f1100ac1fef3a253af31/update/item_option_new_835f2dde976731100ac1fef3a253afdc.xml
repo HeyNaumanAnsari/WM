@@ -13,7 +13,7 @@
         <delete_roles/>
         <delivery_plan/>
         <description/>
-        <display_title>false</display_title>
+        <display_title>true</display_title>
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
@@ -39,13 +39,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>formatter2</name>
-        <order>400</order>
+        <name>cwm_details</name>
+        <order>1600</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text/>
+        <question_text>CWM Details</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -73,19 +73,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-07 15:48:17</sys_created_on>
-        <sys_id>a6a15d5e97a331100ac1fef3a253af08</sys_id>
+        <sys_created_on>2024-01-07 15:49:09</sys_created_on>
+        <sys_id>835f2dde976731100ac1fef3a253afdc</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>formatter2</sys_name>
-        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_name>CWM Details</sys_name>
+        <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
-        <sys_update_name>item_option_new_a6a15d5e97a331100ac1fef3a253af08</sys_update_name>
+        <sys_update_name>item_option_new_835f2dde976731100ac1fef3a253afdc</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-07 16:13:46</sys_updated_on>
+        <sys_updated_on>2024-01-07 16:13:49</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>24</type>
+        <type>19</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -101,22 +101,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=a6a15d5e97a331100ac1fef3a253af08"/>
-    <fx_price action="delete_multiple" query="id=a6a15d5e97a331100ac1fef3a253af08"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=835f2dde976731100ac1fef3a253afdc"/>
+    <fx_price action="delete_multiple" query="id=835f2dde976731100ac1fef3a253afdc"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>a6a15d5e97a331100ac1fef3a253af08</id>
+        <id>835f2dde976731100ac1fef3a253afdc</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-07 13:39:25</sys_created_on>
-        <sys_id>e6a15d5e97a331100ac1fef3a253af86</sys_id>
+        <sys_created_on>2024-01-07 15:49:09</sys_created_on>
+        <sys_id>035f2dde976731100ac1fef3a253afde</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-07 13:39:25</sys_updated_on>
+        <sys_updated_on>2024-01-07 15:49:09</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -124,16 +124,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>a6a15d5e97a331100ac1fef3a253af08</id>
+        <id>835f2dde976731100ac1fef3a253afdc</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-07 13:39:25</sys_created_on>
-        <sys_id>6ea15d5e97a331100ac1fef3a253af85</sys_id>
+        <sys_created_on>2024-01-07 15:49:09</sys_created_on>
+        <sys_id>875f2dde976731100ac1fef3a253afdd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-07 13:39:25</sys_updated_on>
+        <sys_updated_on>2024-01-07 15:49:09</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
