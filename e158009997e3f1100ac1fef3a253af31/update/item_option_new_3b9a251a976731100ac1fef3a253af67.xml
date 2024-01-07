@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>date_entered_into_ellipse</name>
-        <order>1700</order>
+        <order>4200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -73,16 +73,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-07 15:48:17</sys_created_on>
+        <sys_created_on>2024-01-07 18:00:07</sys_created_on>
         <sys_id>3b9a251a976731100ac1fef3a253af67</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Date Entered Into Ellipse</sys_name>
         <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
         <sys_update_name>item_option_new_3b9a251a976731100ac1fef3a253af67</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-07 16:13:44</sys_updated_on>
+        <sys_updated_on>2024-01-07 18:12:24</sys_updated_on>
         <table/>
         <tooltip/>
         <type>9</type>

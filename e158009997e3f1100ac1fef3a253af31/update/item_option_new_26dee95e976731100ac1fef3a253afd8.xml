@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>design_and_estimate_due_from_asset_management</name>
-        <order>2100</order>
+        <order>4600</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -73,19 +73,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-07 15:48:17</sys_created_on>
+        <sys_created_on>2024-01-07 18:00:07</sys_created_on>
         <sys_id>26dee95e976731100ac1fef3a253afd8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Design And Estimate Due From Asset Management</sys_name>
         <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
         <sys_update_name>item_option_new_26dee95e976731100ac1fef3a253afd8</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-07 16:13:52</sys_updated_on>
+        <sys_updated_on>2024-01-07 18:12:21</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>9</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
