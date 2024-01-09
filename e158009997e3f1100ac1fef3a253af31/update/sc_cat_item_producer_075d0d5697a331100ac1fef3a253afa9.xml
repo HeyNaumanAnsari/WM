@@ -87,12 +87,16 @@ applicant.setValue('mobile',producer.phone_number);
 applicant.setValue('applicant_number',producer.applicant_number);
 applicant.setValue('abn',producer.abn);
 applicant.setValue('address',producer.address);
-applicant.setValue('job_details',current);
-gs.info('its written' + current);
+//applicant.setValue('job_details',current);
+gs.info('procuder sysid: '+producer.sys_id);
+gs.info('Test Of Catalog: '+ current.created_on);
+gs.info('its current' + current);
 var app = applicant.insert();
-gs.info('its app' + app );
+gs.info('its written: ' + app);
+gs.info('Before setting: '+ current.applicant_details);
 
 current.applicant_details = app;
+gs.info('After Setting: '+current.applicant_details);
 ]]></script>
         <short_description>This Catalog Item For Job Catalog Item Creation</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
@@ -109,7 +113,7 @@ current.applicant_details = app;
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
         <sys_update_name>sc_cat_item_producer_075d0d5697a331100ac1fef3a253afa9</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-09 07:14:46</sys_updated_on>
+        <sys_updated_on>2024-01-09 13:55:41</sys_updated_on>
         <table_name>x_1020172_work_m_0_wm_job_details</table_name>
         <taxonomy_topic/>
         <template/>
