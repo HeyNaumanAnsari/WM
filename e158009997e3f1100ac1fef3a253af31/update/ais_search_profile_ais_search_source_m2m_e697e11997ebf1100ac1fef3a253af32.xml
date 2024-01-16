@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="Work Management search profile">48872dd58febf1101c34966473172653</profile>
+        <search_source display_value="WM Applicant Details">aa97e11997ebf1100ac1fef3a253af30</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 12:41:21</sys_created_on>
+        <sys_id>e697e11997ebf1100ac1fef3a253af32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work Management search profile.WM Applicant Details</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_e697e11997ebf1100ac1fef3a253af32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 12:41:21</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

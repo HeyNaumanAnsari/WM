@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="WM Job Request Field Visibility" language="en" table="x_1020172_work_m_0_wm_job_request_field_visibility">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>WM Job Request Field Visibility</label>
+            <language>en</language>
+            <name>x_1020172_work_m_0_wm_job_request_field_visibility</name>
+            <plural>WM Job Request Field Visibilities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-04 09:13:24</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>WM Job Request Field Visibility</sys_name>
+            <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+            <sys_update_name>sys_documentation_x_1020172_work_m_0_wm_job_request_field_visibility__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 09:13:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Order success">7da2c665186375104b89fd51fe90b2b8</macroponent>
+        <name>Home redirection</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const route = "landing";
+    api.emit('NAV_ITEM_SELECTED', {
+        route,
+        params: {
+            refresh: Date.now()
+        },
+        fields: {}
+    });
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-05 09:18:05</sys_created_on>
+        <sys_id>bda2c665656375108f70de01346028b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home redirection</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ux_client_script_bda2c665656375108f70de01346028b6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-05 09:18:05</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

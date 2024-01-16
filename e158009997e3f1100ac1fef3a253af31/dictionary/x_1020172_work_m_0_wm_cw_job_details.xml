@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="293b745d97e7f1100ac1fef3a253af7a" label="WM CW Job Details" max_length="40" name="x_1020172_work_m_0_wm_cw_job_details" text_index="true" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Construction Complete Date" max_length="40" name="construction_complete_date" type="glide_date"/>
+        <element label="Construction Due Date" max_length="40" name="construction_due_date" type="glide_date"/>
+        <element label="COPC Due Date" max_length="40" name="copc_due_date" type="glide_date"/>
+        <element label="COPC Issued Date" max_length="40" name="copc_issued_date" type="glide_date"/>
+        <element label="Date Entered Into Ellipse" max_length="40" name="date_entered_into_ellipse" type="glide_date"/>
+        <element label="Date Issued To Finance" max_length="40" name="date_issued_to_finance" type="glide_date"/>
+        <element label="Date Processed By Finance" max_length="40" name="date_processed_by_finance" type="glide_date"/>
+        <element label="Design And Estimate Due From Asset Management" max_length="40" name="design_and_estimate_due_from_asset_management" type="glide_date"/>
+        <element label="Design And Estimate Received From Asset Management" max_length="40" name="design_and_estimate_received_from_asset_management" type="glide_date"/>
+        <element label="DM Folder ID" max_length="40" name="dm_folder_id" type="string"/>
+        <element label="Issue Job To Asset Management Date" max_length="40" name="issue_job_to_asset_management_date" type="glide_date"/>
+        <element label="Job Details" max_length="32" name="job_details" reference="x_1020172_work_m_0_wm_job_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parent Project Number" max_length="40" name="parent_project_number" type="string"/>
+        <element label="Plan View Reference Number" max_length="40" name="plan_view_reference_number" type="string"/>
+        <element label="Project Name" max_length="40" name="project_name" type="string"/>
+        <element label="Project Number" max_length="40" name="project_number" type="string"/>
+        <element label="Work Description" max_length="4000" name="work_description" type="string"/>
+        <element label="Work Request Number" max_length="40" name="work_request_number" type="string"/>
+        <index name="index">
+            <element name="job_details"/>
+        </index>
+    </element>
+</database>

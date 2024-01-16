@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Work Management">88872dd5d1ebf110444976cfdd60aa34</dashboard>
+        <group/>
+        <role display_value="x_1020172_work_m_0.am_team" name="x_1020172_work_m_0.am_team">3d58009997e3f1100ac1fef3a253af3d</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 12:40:59</sys_created_on>
+        <sys_id>1d876dd597ebf1100ac1fef3a253af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>88872dd5d1ebf110444976cfdd60aa34</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>par_dashboard_permission_1d876dd597ebf1100ac1fef3a253af74</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 12:40:59</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

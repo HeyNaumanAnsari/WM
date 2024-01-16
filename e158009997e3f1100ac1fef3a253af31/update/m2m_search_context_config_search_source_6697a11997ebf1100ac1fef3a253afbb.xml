@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>700</order>
+        <search_context_config display_value="Work Management - Workspace Search">c4872dd5b1ebf110fb19c18c30ac1f52</search_context_config>
+        <source display_value="Work Management - x_1020172_work_m_0_cmn_invoice_d">b197611997ebf1100ac1fef3a253affc</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 12:41:20</sys_created_on>
+        <sys_id>6697a11997ebf1100ac1fef3a253afbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_6697a11997ebf1100ac1fef3a253afbb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 12:41:20</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_79a2c66535637510fbca735da963a0b9</event_name>
+        <interfaces/>
+        <label>Open or close modal dialog Relay (Article page Default)</label>
+        <props>[{"name":"modalId","fieldType":"string","interfaceApiName":"global.modal","label":"Modal"},{"name":"showModal","fieldType":"boolean","interfaceApiName":null,"label":"Open modal dialog"},{"name":"displayOptions","fieldType":"json","interfaceApiName":null,"label":"Display options (advanced)"},{"name":"bare","fieldType":"boolean","interfaceApiName":"global.modal","label":"Use bare modal"}]</props>
+        <required_translations>[{"message":"Display options (advanced)","comment":""},{"message":"Use bare modal","comment":""},{"message":"Open modal dialog","comment":""},{"message":"Modal","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-05 09:18:03</sys_created_on>
+        <sys_id>bda2c66568637510879c11cacfcc07b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open or close modal dialog Relay (Article page Default)</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ux_event_bda2c66568637510879c11cacfcc07b2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-05 09:18:03</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=bda2c66568637510879c11cacfcc07b2"/>
+</record_update>

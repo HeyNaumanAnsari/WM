@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>application_processing</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 07:31:41</sys_created_on>
+        <sys_id>9d4a1f83972b75100ac1fef3a253af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>application_processing</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9d4a1f83972b75100ac1fef3a253af2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 07:31:41</sys_updated_on>
+        <table>x_1020172_work_m_0_wm_job_details</table>
+        <ui_policy display_value="CF Simple/Fixed/Unmetered/Asset/Recoverable">194adb83972b75100ac1fef3a253afd1</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

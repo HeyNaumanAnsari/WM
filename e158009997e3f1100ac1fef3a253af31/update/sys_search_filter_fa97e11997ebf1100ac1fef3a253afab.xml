@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="WM CW Job Details">ba97e11997ebf1100ac1fef3a253afa6</ais_search_source>
+        <label>WM CW Job Details</label>
+        <name>WM CW Job Details</name>
+        <order>400</order>
+        <search_context_config display_value="Work Management AI Search Configuration">40872dd5c4ebf110e2246939627dac36</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 12:41:21</sys_created_on>
+        <sys_id>fa97e11997ebf1100ac1fef3a253afab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WM CW Job Details</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_search_filter_fa97e11997ebf1100ac1fef3a253afab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 12:41:21</sys_updated_on>
+    </sys_search_filter>
+</record_update>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="f68f7415972bf1100ac1fef3a253afc8" label="WM Job Details" max_length="40" name="x_1020172_work_m_0_wm_job_details" text_index="true" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Activity Stream" max_length="32" name="activity_stream" reference="sn_actsub_activity_stream" type="reference"/>
+        <element label="Additional Details" max_length="32" name="additional_details" reference="x_1020172_work_m_0_wm_job_additional_details" type="reference"/>
+        <element label="Applicant Details" max_length="32" name="applicant_details" reference="x_1020172_work_m_0_wm_applicant_details" type="reference"/>
+        <element choice="3" label="Applicant Type" mandatory="true" max_length="40" name="applicant_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Internal" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="External" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Application Processing" max_length="40" name="application_processing" type="string"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Business Case" max_length="40" name="business_case" type="string"/>
+        <element label="Capitalization" max_length="40" name="capitalization" type="string"/>
+        <element label="CF Job Details" max_length="32" name="cf_job_details" reference="x_1020172_work_m_0_wm_cf_job_details" type="reference"/>
+        <element label="Close Out And Completion" max_length="40" name="close_out_and_compl" type="string"/>
+        <element label="Comments" max_length="40" name="comments" type="journal_input"/>
+        <element label="Construction Quote And Invoice" max_length="40" name="construction_quote_and_invoice" type="string"/>
+        <element label="Cost Estimating And Quoting" max_length="40" name="cost_estimating_and_quoting" type="string"/>
+        <element label="CW Job Details" max_length="32" name="cw_job_details" reference="x_1020172_work_m_0_wm_cw_job_details" type="reference"/>
+        <element label="Data Updates Completed" max_length="40" name="data_updates_completed" type="boolean"/>
+        <element label="Design And Planning" max_length="40" name="design_and_planning" type="string"/>
+        <element label="Design Fee Invoice" max_length="40" name="design_fee_invoice" type="string"/>
+        <element label="DIP And DCR" max_length="40" name="dip_and_dcr" type="string"/>
+        <element label="DIP Fee Invoice" max_length="40" name="dip_fee_invoice" type="string"/>
+        <element label="External Designer Company" max_length="40" name="external_designer_company" type="string"/>
+        <element label="External Designer Name" max_length="40" name="external_designer_name" type="string"/>
+        <element label="Field Name" max_length="40" name="field_name" type="string"/>
+        <element label="Internal Designer Name" max_length="40" name="internal_designer_name" type="string"/>
+        <element label="Invoice Details" max_length="32" name="invoice_details" reference="x_1020172_work_m_0_cmn_invoice_details" type="reference"/>
+        <element label="Job Actuals" max_length="40" name="job_actuals" type="string"/>
+        <element choice="1" label="Job Category" mandatory="true" max_length="40" name="job_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Capital Work" sequence="0" value="capital_work"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="1" value="maintenance"/>
+                <element inactive_on_update="false" label="Service Order" sequence="2" value="service_order"/>
+                <element inactive_on_update="false" label="Technical Query" sequence="3" value="technical_query"/>
+                <element inactive_on_update="false" label="Regulatory Compliance" sequence="4" value="regulatory_compliance"/>
+            </choice>
+        </element>
+        <element label="Job Estimate Total" max_length="40" name="job_estimate_total" type="float"/>
+        <element choice="3" dependent="job_category" dependent_on_field="job_category" label="Job Type" mandatory="true" max_length="40" name="job_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="capital_work" inactive_on_update="false" label="CF Simple" sequence="0" value="1"/>
+                <element dependent_value="capital_work" inactive_on_update="false" label="CF Complex" sequence="1" value="2"/>
+                <element dependent_value="capital_work" inactive_on_update="false" label="CF Subdivision" sequence="2" value="3"/>
+                <element dependent_value="capital_work" inactive_on_update="false" label="CF Fixed Price Pole To Pillar" sequence="3" value="4"/>
+                <element dependent_value="capital_work" inactive_on_update="false" label="CF Unmetered Supply" sequence="4" value="5"/>
+                <element dependent_value="capital_work" inactive_on_update="false" label="CF Asset Relocation" sequence="5" value="6"/>
+                <element dependent_value="capital_work" inactive_on_update="false" label="IF Capital Project" sequence="6" value="7"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="P1" sequence="7" value="8"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="P2" sequence="8" value="9"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="R1" sequence="9" value="10"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="R2" sequence="10" value="11"/>
+                <element dependent_value="maintenance" inactive_on_update="false" label="PQI" sequence="11" value="12"/>
+                <element dependent_value="service_order" inactive_on_update="false" label="Work in Vicinity" sequence="12" value="13"/>
+                <element dependent_value="service_order" inactive_on_update="false" label="Oversize Load Escort" sequence="13" value="14"/>
+                <element dependent_value="service_order" inactive_on_update="false" label="Discon / Recon" sequence="14" value="15"/>
+                <element dependent_value="technical_query" inactive_on_update="false" label="WAPC Application" sequence="15" value="16"/>
+                <element dependent_value="technical_query" inactive_on_update="false" label="HP Internal Queries" sequence="16" value="17"/>
+                <element dependent_value="technical_query" inactive_on_update="false" label="Feasibility Study" sequence="17" value="18"/>
+                <element dependent_value="regulatory_compliance" inactive_on_update="false" label="Incident Investigation" sequence="18" value="19"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="QAQC Complete" max_length="40" name="qaqc_complete" type="boolean"/>
+        <element label="QAQC Passed" max_length="40" name="qaqc_passed" type="boolean"/>
+        <element label="QA and Data Update" max_length="40" name="qa_and_data_update" type="string"/>
+        <element label="Question Table" max_length="40" name="question_table" type="string"/>
+        <element default="javascript: gs.getUser()" label="Raised By" max_length="32" name="raised_by" reference="sys_user" type="reference"/>
+        <element label="Section Name" max_length="40" name="section_name" type="string"/>
+        <element default="New" label="Status" max_length="40" name="status" type="string"/>
+        <element label="Works Delivery" max_length="40" name="works_delivery" type="string"/>
+        <element label="Work Package Returned And Complete" max_length="40" name="work_package_returned_and_complete" type="boolean"/>
+        <element label="Work Packing And Procurement" max_length="40" name="work_packing_and_procurement" type="string"/>
+        <index name="index">
+            <element name="activity_stream"/>
+        </index>
+        <index name="index2">
+            <element name="additional_details"/>
+        </index>
+        <index name="index3">
+            <element name="applicant_details"/>
+        </index>
+        <index name="index4">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index5">
+            <element name="cf_job_details"/>
+        </index>
+        <index name="index6">
+            <element name="cw_job_details"/>
+        </index>
+        <index name="index7">
+            <element name="invoice_details"/>
+        </index>
+        <index name="index8">
+            <element name="raised_by"/>
+        </index>
+    </element>
+</database>

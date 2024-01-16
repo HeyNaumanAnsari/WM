@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="Work Management">cc872dd509ebf110998aa96e4df09934</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 12:40:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>c4872dd556ebf11036adc7986ddea251</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ux_page_property_c4872dd556ebf11036adc7986ddea251</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 12:40:56</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1020172_work_m_0.cc872dd509ebf110998aa96e4df09934.root.globalSearchDataConfigId</unique_name>
+        <value>c4872dd5b1ebf110fb19c18c30ac1f52</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=c4872dd556ebf11036adc7986ddea251"/>
+</record_update>

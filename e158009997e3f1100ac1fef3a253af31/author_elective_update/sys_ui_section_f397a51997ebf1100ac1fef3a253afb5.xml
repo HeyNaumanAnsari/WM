@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="f397a51997ebf1100ac1fef3a253afb5" sys_domain="global" table="x_1020172_work_m_0_cmn_invoice_details" version="3" view="Workspace-Work-Management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application_code</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:05:51</sys_created_on>
+            <sys_id>71d5026297e3b1100ac1fef3a253af46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:05:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_type</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:05:51</sys_created_on>
+            <sys_id>75d5026297e3b1100ac1fef3a253af46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:05:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>paid_date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:05:51</sys_created_on>
+            <sys_id>79d5026297e3b1100ac1fef3a253af46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:05:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:05:51</sys_created_on>
+            <sys_id>7dd5026297e3b1100ac1fef3a253af46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:05:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>issued_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:05:51</sys_created_on>
+            <sys_id>71d5026297e3b1100ac1fef3a253af47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:05:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:05:51</sys_created_on>
+            <sys_id>75d5026297e3b1100ac1fef3a253af47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:05:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1020172_work_m_0_cmn_invoice_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-04 12:41:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f397a51997ebf1100ac1fef3a253afb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1020172_work_m_0_cmn_invoice_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+            <sys_update_name>sys_ui_section_f397a51997ebf1100ac1fef3a253afb5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 12:41:26</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Work Management 0" name="Workspace-Work-Management-0">c0872dd520ebf1109863e5c282ab1750</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Management">e158009997e3f1100ac1fef3a253af31</application>
+        <file_path/>
+        <instance_id>6937715cdb81ff8042b321c405961910</instance_id>
+        <instance_name>dev82748</instance_name>
+        <name>sys_ui_section_f397a51997ebf1100ac1fef3a253afb5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="f397a51997ebf1100ac1fef3a253afb5" sys_domain="global" table="x_1020172_work_m_0_cmn_invoice_details" version="3" view="Workspace-Work-Management-0"><sys_ui_element action="INSERT_OR_UPDATE"><element>application_code</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:05:51</sys_created_on><sys_id>71d5026297e3b1100ac1fef3a253af46</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:05:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>invoice_type</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:05:51</sys_created_on><sys_id>75d5026297e3b1100ac1fef3a253af46</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:05:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>paid_date</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:05:51</sys_created_on><sys_id>79d5026297e3b1100ac1fef3a253af46</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:05:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:05:51</sys_created_on><sys_id>7dd5026297e3b1100ac1fef3a253af46</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:05:51</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>issued_date</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:05:51</sys_created_on><sys_id>71d5026297e3b1100ac1fef3a253af47</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:05:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>due_date</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:05:51</sys_created_on><sys_id>75d5026297e3b1100ac1fef3a253af47</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1020172_work_m_0_cmn_invoice_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">f397a51997ebf1100ac1fef3a253afb5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:05:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1020172_work_m_0_cmn_invoice_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-04 12:41:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f397a51997ebf1100ac1fef3a253afb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1020172_work_m_0_cmn_invoice_details</sys_name><sys_overrides/><sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package><sys_policy/><sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope><sys_update_name>sys_ui_section_f397a51997ebf1100ac1fef3a253afb5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-04 12:41:26</sys_updated_on><sys_user/><title>true</title><view display_value="Workspace Work Management 0" name="Workspace-Work-Management-0">c0872dd520ebf1109863e5c282ab1750</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1860230504</payload_hash>
+        <record_name>CMN Invoice Details</record_name>
+        <reverted_from/>
+        <source>3158009997e3f1100ac1fef3a253af34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 12:05:51</sys_created_on>
+        <sys_id>7dd5026297e3b1100ac1fef3a253afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ce8f7045a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 12:05:51</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>75d502621ee3b11029dfbd23649485c5</update_guid>
+        <update_guid_history>75d502621ee3b11029dfbd23649485c5:-1860230504,7dd50262ece3b110dfb2c2f8135cbb44:-1327763389</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 13:26:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>05afc999fb3d462d813f1ef0354dea11</sys_id>
+        <sys_metadata>f397a51997ebf1100ac1fef3a253afb5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1020172_work_m_0_cmn_invoice_details</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_parent display_value="CMN Invoice Details">e1c6a81197a7f1100ac1fef3a253aff1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_scope_delete display_value="">305cf331e3bf402e916629c002514e51</sys_scope_delete>
+        <sys_update_name>sys_ui_section_f397a51997ebf1100ac1fef3a253afb5</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_f397a51997ebf1100ac1fef3a253afb5">7dd5026297e3b1100ac1fef3a253afc5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 13:26:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

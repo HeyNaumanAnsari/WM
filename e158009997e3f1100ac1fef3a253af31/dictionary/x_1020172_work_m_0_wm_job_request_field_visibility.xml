@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2808f8d597e7f1100ac1fef3a253af12" label="WM Job Request Field Visibility" max_length="40" name="x_1020172_work_m_0_wm_job_request_field_visibility" text_index="true" type="collection">
+        <element label="Application Processing" max_length="40" name="application_processing" type="string"/>
+        <element label="Business Case" max_length="40" name="business_case" type="string"/>
+        <element label="Capitalization" max_length="40" name="capitalization" type="string"/>
+        <element label="Close Out And Completion" max_length="40" name="close_out_and_completion" type="string"/>
+        <element label="Construction Quote And Invoice" max_length="40" name="construction_quote_and_invoice" type="string"/>
+        <element label="Cost Estimating And Quoting" max_length="40" name="cost_estimating_and_quoting" type="string"/>
+        <element label="Design And Planning" max_length="40" name="design_and_planning" type="string"/>
+        <element label="Design Fee Invoice" max_length="40" name="design_fee_invoice" type="string"/>
+        <element label="DIP And DCR" max_length="40" name="dip_and_dcr" type="string"/>
+        <element label="DIP Fee Invoice" max_length="40" name="dip_fee_invoice" type="string"/>
+        <element label="Field Name" max_length="40" name="field_name" type="string"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="QA and Data Update" max_length="40" name="qa_and_data_update" type="string"/>
+        <element label="Section Name" max_length="40" name="section_name" type="string"/>
+        <element label="Works Delivery" max_length="40" name="works_delivery" type="string"/>
+        <element label="Work Packing And Procurement" max_length="40" name="work_packing_and_procurement" type="string"/>
+    </element>
+</database>

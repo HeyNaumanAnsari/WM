@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Work Management Config">e5a2c665976375100ac1fef3a253af93</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Additional Details">31a2c66559637510d1c0550beaa339b2</macroponent>
+        <macroponent_config>{
+  "sysId" : "@context.props.sysId",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Additional Details Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(task)">f5a2c665186375104c460c6686b7a4bc</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Additional Details">b9a2c6650f63751064e1c52b3e9704b9</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-05 09:18:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f1a2c6658463751034eabb0e5cbad4b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional Details Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ux_screen_f1a2c6658463751034eabb0e5cbad4b0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-05 09:18:03</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=f1a2c6658463751034eabb0e5cbad4b0"/>
+</record_update>

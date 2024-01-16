@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>GLIDE_FORM_1_SET_VALUE_RELAY_39a2c665066375101b75291a64b98bb3</event_name>
+        <interfaces/>
+        <label>Glide Form 1 SET_VALUE Relay (Tasks Default)</label>
+        <props>[{"name":"fieldName","fieldType":"string","label":"Field Name"},{"name":"value","fieldType":"string","label":"Value"},{"name":"displayValue","fieldType":"string","label":"Display Value"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-05 09:18:04</sys_created_on>
+        <sys_id>b5a2c665ff6375100b00e663b2a675b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide Form 1 SET_VALUE Relay (Tasks Default)</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ux_event_b5a2c665ff6375100b00e663b2a675b3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-05 09:18:04</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=b5a2c665ff6375100b00e663b2a675b3"/>
+</record_update>

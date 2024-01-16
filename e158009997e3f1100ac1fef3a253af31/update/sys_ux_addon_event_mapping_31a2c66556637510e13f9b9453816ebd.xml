@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Approve Mapping</name>
+        <parent_macroponent display_value="Landing Page">f1a2c66563637510016e78b774e833bd</parent_macroponent>
+        <source_component/>
+        <source_da display_value="approve">79a2c665936375103d62eee2f7265fc1</source_da>
+        <source_element_id>data_row_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-05 09:18:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31a2c66556637510e13f9b9453816ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_31a2c66556637510e13f9b9453816ebd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-05 09:18:04</sys_updated_on>
+        <target_event display_value="My tasks approve">75a2c665a163751001bbeffcda82cdbc</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "sysId": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "sysId"
+        ]
+      }
+    },
+    "table": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "table"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

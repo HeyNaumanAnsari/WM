@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>true</click_in_mode>
+        <context_config_id display_value="Work Management AI Search Configuration">40872dd5c4ebf110e2246939627dac36</context_config_id>
+        <limit>5</limit>
+        <order>100</order>
+        <section_header>Recent searches</section_header>
+        <suggestion_type>Recent Search Reader Group for Starter Workspace AI Search Configuration</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 12:40:55</sys_created_on>
+        <sys_id>c8872dd5f1ebf110a7aa2bf8e6d95335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recent Search Reader Group for Starter Workspace AI Search Configuration</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_c8872dd5f1ebf110a7aa2bf8e6d95335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 12:40:55</sys_updated_on>
+    </sys_suggestion_reader_group>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>ACL for Data broker: Content set - Related items list</description>
+        <name>71a2c665a86375102dd349ff237366bf</name>
+        <operation display_value="execute">execute</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-05 09:18:04</sys_created_on>
+        <sys_id>f1a2c665836375104de1df3430752fbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>71a2c665a86375102dd349ff237366bf</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_security_acl_f1a2c665836375104de1df3430752fbf</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-05 09:18:04</sys_updated_on>
+        <type display_value="ux_data_broker">6d9c40e9531210101cb3ddeeff7b12f6</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Standard record page">119721a197ef35100ac1fef3a253af23</macroponent>
+        <name>select_1/items</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  @params {params} params.api
+  @params {api} params.api
+	return '';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-05 11:35:41</sys_created_on>
+        <sys_id>6222eead97e375100ac1fef3a253af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>select_1/items</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ux_client_script_6222eead97e375100ac1fef3a253af15</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-05 11:35:41</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Management">e158009997e3f1100ac1fef3a253af31</application>
+        <file_path/>
+        <instance_id>6937715cdb81ff8042b321c405961910</instance_id>
+        <instance_name>dev82748</instance_name>
+        <name>sys_ux_client_script_6222eead97e375100ac1fef3a253af15</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Standard record page"&gt;119721a197ef35100ac1fef3a253af23&lt;/macroponent&gt;&lt;name&gt;select_1/items&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  @params {params} params.api
+  @params {api} params.api
+	return '';
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-05 11:35:41&lt;/sys_created_on&gt;&lt;sys_id&gt;6222eead97e375100ac1fef3a253af15&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;select_1/items&lt;/sys_name&gt;&lt;sys_package display_value="Work Management" source="x_1020172_work_m_0"&gt;e158009997e3f1100ac1fef3a253af31&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Work Management"&gt;e158009997e3f1100ac1fef3a253af31&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_6222eead97e375100ac1fef3a253af15&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-05 11:35:41&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1249641970</payload_hash>
+        <record_name>select_1/items</record_name>
+        <reverted_from/>
+        <source>3158009997e3f1100ac1fef3a253af34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-05 11:35:41</sys_created_on>
+        <sys_id>ee222e21972775100ac1fef3a253af00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd96850f40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-05 11:35:41</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>6a222e21262775108388e111e94b8900</update_guid>
+        <update_guid_history>6a222e21262775108388e111e94b8900:-1249641970</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-05 11:44:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>15e11760938841c885ad5492c40b9610</sys_id>
+        <sys_metadata>6222eead97e375100ac1fef3a253af15</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>select_1/items</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_scope_delete display_value="">305cf331e3bf402e916629c002514e51</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_6222eead97e375100ac1fef3a253af15</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_6222eead97e375100ac1fef3a253af15">ee222e21972775100ac1fef3a253af00</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-05 11:44:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

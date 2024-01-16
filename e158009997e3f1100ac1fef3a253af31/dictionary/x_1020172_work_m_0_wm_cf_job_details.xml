@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="46f9001d97e3f1100ac1fef3a253af4e" label="WM CF Job Details" max_length="40" name="x_1020172_work_m_0_wm_cf_job_details" text_index="true" type="collection">
+        <element label="Acknowledgement Letter Due Date" max_length="40" name="acknowledgement_letter_due_date" type="glide_date"/>
+        <element label="Acknowledgement Letter Issued Date" max_length="40" name="acknowledgement_letter_issued_date" type="glide_date"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Additional Capacity Requested" max_length="40" name="additional_capacity_requested" type="string"/>
+        <element label="Additional Information Received Date" max_length="40" name="additional_information_received_date" type="glide_date"/>
+        <element label="Application Complete" max_length="40" name="application_complete" type="glide_date"/>
+        <element label="Application Received Date" max_length="40" name="application_received_date" type="glide_date"/>
+        <element label="Cancellation Date" max_length="40" name="cancellation_date" type="glide_date"/>
+        <element label="Competing Application Ref" max_length="40" name="competing_application_ref" type="string"/>
+        <element label="Complexity" max_length="40" name="complexity" type="string"/>
+        <element label="Confirmation Receipt Of Material Date" max_length="40" name="confirmation_receipt_of_material_date" type="glide_date"/>
+        <element label="Contestable Customer" max_length="40" name="contestable_customer" type="boolean"/>
+        <element label="Corresponding Access Application" max_length="40" name="corresponding_access_application" type="string"/>
+        <element label="CT Metering" max_length="40" name="ct_metering" type="boolean"/>
+        <element label="Date QAF Received From Customer" max_length="40" name="date_qaf_received_from_customer" type="string"/>
+        <element label="Formal Quote Expiry Date" max_length="40" name="formal_quote_expiry_date" type="glide_date"/>
+        <element label="Formal Quote Issued Date" max_length="40" name="formal_quote_issued_date" type="glide_date"/>
+        <element label="High Level Status" max_length="40" name="high_level_status" type="string"/>
+        <element label="Initial Enquiry Date" max_length="40" name="initial_enquiry_date" type="glide_date"/>
+        <element label="Job Details" max_length="32" name="job_details" reference="x_1020172_work_m_0_wm_job_details" type="reference"/>
+        <element label="Notify Customer Application Incomplete Date" max_length="40" name="notify_customer_application_incomplete_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Priority Of Related Competing Applications" max_length="40" name="priority_of_related_competing_applications" type="string"/>
+        <element label="Relevant TQ Number" max_length="40" name="relevant_tq_number" type="string"/>
+        <element label="Retailer" max_length="40" name="retailer" type="string"/>
+        <element label="Site Contact Mobile" max_length="40" name="site_contact_mobile" type="string"/>
+        <element label="Site Contact Number" max_length="40" name="site_contact_number" type="string"/>
+        <element label="Site Lot Number" max_length="40" name="site_lot_number" type="string"/>
+        <element label="Site Postcode" max_length="40" name="site_postcode" type="string"/>
+        <element label="Site Street Name" max_length="40" name="site_street_name" type="string"/>
+        <element label="Site Street Number" max_length="40" name="site_street_number" type="string"/>
+        <element label="Site Town Name" max_length="40" name="site_town_name" type="string"/>
+        <element label="Status Of Competing Application" max_length="40" name="status_of_competing_application" type="string"/>
+        <element label="Substation Connection" max_length="40" name="substation_connection" type="string"/>
+        <element label="Type Of Connection" max_length="40" name="type_of_connection" type="string"/>
+        <index name="index">
+            <element name="job_details"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>On load For View</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    //switchView('section','x_1020172_work_m_0_wm_job_details','WorkspaceAM Team');
+    /*All the Role Present In Application*/
+
+    var roleAM = g_user.hasRoleExactly('x_1020172_work_m_0.am_team');
+    var roleWD = g_user.hasRoleExactly('x_1020172_work_m_0.wd_team');
+    var roleCE = g_user.hasRoleExactly('x_1020172_work_m_0.ce_team');
+    var newValue = g_form.getValue('job_type');
+
+    g_form.setReadOnly('number', true);
+    g_form.setReadOnly('status', true);
+    g_form.setReadOnly('assignment_group', true);
+
+    if (roleAM) {
+        g_form.setReadOnly('business_case', false);
+        g_form.setReadOnly('capitalization', false);
+        g_form.setReadOnly('close_out_and_compl', false);
+        g_form.setReadOnly('construction_quote_and_invoice', false);
+        g_form.setReadOnly('cost_estimating_and_quoting', false);
+        g_form.setReadOnly('design_and_planning', false);
+        g_form.setReadOnly('design_fee_invoice', false);
+        g_form.setReadOnly('dip_and_dcr', false);
+        g_form.setReadOnly('qa_and_data_update', false);
+        g_form.setReadOnly('work_packing_and_procurement', false);
+
+        g_form.setReadOnly('application_processing', true);
+        g_form.setReadOnly('dip_fee_invoice', true);
+
+    } else if (roleWD) {
+        /**/
+        g_form.setReadOnly('works_delivery', false);
+
+        g_form.setReadOnly('application_processing', true);
+        g_form.setReadOnly('business_case', true);
+        g_form.setReadOnly('capitalization', true);
+        g_form.setReadOnly('close_out_and_compl', true);
+        g_form.setReadOnly('construction_quote_and_invoice', true);
+        g_form.setReadOnly('cost_estimating_and_quoting', true);
+        g_form.setReadOnly('design_and_planning', true);
+        g_form.setReadOnly('design_fee_invoice', true);
+        g_form.setReadOnly('dip_fee_invoice', true);
+        g_form.setReadOnly('dip_and_dcr', true);
+        g_form.setReadOnly('qa_and_data_update', true);
+        g_form.setReadOnly('work_packing_and_procurement', true);
+    } else if (roleCE) {
+        g_form.setReadOnly('application_processing', false);
+        g_form.setReadOnly('dip_fee_invoice', false);
+
+        g_form.setReadOnly('business_case', true);
+        g_form.setReadOnly('capitalization', true);
+        g_form.setReadOnly('close_out_and_compl', true);
+        g_form.setReadOnly('construction_quote_and_invoice', true);
+        g_form.setReadOnly('cost_estimating_and_quoting', true);
+        g_form.setReadOnly('design_and_planning', true);
+        g_form.setReadOnly('dip_and_dcr', true);
+        g_form.setReadOnly('qa_and_data_update', true);
+        g_form.setReadOnly('work_packing_and_procurement', true);
+        g_form.setReadOnly('works_delivery', true);
+    } else {
+        g_form.setReadOnly('application_processing', true);
+        g_form.setReadOnly('business_case', true);
+        g_form.setReadOnly('capitalization', true);
+        g_form.setReadOnly('close_out_and_compl', true);
+        g_form.setReadOnly('construction_quote_and_invoice', true);
+        g_form.setReadOnly('cost_estimating_and_quoting', true);
+        g_form.setReadOnly('design_and_planning', true);
+        g_form.setReadOnly('design_fee_invoice', true);
+        g_form.setReadOnly('dip_fee_invoice', true);
+        g_form.setReadOnly('dip_and_dcr', true);
+        g_form.setReadOnly('qa_and_data_update', true);
+        g_form.setReadOnly('work_packing_and_procurement', true);
+        g_form.setReadOnly('works_delivery', true);
+    }
+
+
+    if (!g_form.isNewRecord()) {
+        g_form.setReadOnly('job_type', true);
+        g_form.setReadOnly('job_category', true);
+        g_form.setReadOnly('applicant_type', true);
+
+        g_form.setReadOnly('applicant_details', true);
+    }
+    if (newValue == 1 || newValue == 4 || newValue == 5 || newValue == 6) {
+        //         g_form.hideRelatedList('');
+        g_form.setVisible('application_processing', true);
+        g_form.setVisible('business_case', false);
+        g_form.setVisible('capitalization', true);
+        g_form.setVisible('close_out_and_compl', true);
+        g_form.setVisible('construction_quote_and_invoice', true);
+        g_form.setVisible('cost_estimating_and_quoting', true);
+        g_form.setVisible('design_and_planning', true);
+        g_form.setVisible('design_fee_invoice', false);
+        g_form.setVisible('dip_fee_invoice', false);
+        g_form.setVisible('dip_and_dcr', false);
+        g_form.setVisible('qa_and_data_update', true);
+        g_form.setVisible('work_packing_and_procurement', true);
+        g_form.setVisible('works_delivery', true);
+    } else if (newValue == 2) {
+        g_form.setVisible('application_processing', true);
+        g_form.setVisible('business_case', false);
+        g_form.setVisible('capitalization', true);
+        g_form.setVisible('close_out_and_compl', true);
+        g_form.setVisible('construction_quote_and_invoice', true);
+        g_form.setVisible('cost_estimating_and_quoting', true);
+        g_form.setVisible('design_and_planning', true);
+        g_form.setVisible('design_fee_invoice', true);
+        g_form.setVisible('dip_fee_invoice', false);
+        g_form.setVisible('dip_and_dcr', false);
+        g_form.setVisible('qa_and_data_update', true);
+        g_form.setVisible('work_packing_and_procurement', true);
+        g_form.setVisible('works_delivery', true);
+    } else if (newValue == 3) {
+        g_form.setVisible('application_processing', true);
+        g_form.setVisible('business_case', false);
+        g_form.setVisible('capitalization', true);
+        g_form.setVisible('close_out_and_compl', true);
+        g_form.setVisible('construction_quote_and_invoice', true);
+        g_form.setVisible('cost_estimating_and_quoting', true);
+        g_form.setVisible('design_and_planning', true);
+        g_form.setVisible('design_fee_invoice', true);
+        g_form.setVisible('dip_fee_invoice', true);
+        g_form.setVisible('dip_and_dcr', true);
+        g_form.setVisible('qa_and_data_update', true);
+        g_form.setVisible('work_packing_and_procurement', true);
+        g_form.setVisible('works_delivery', true);
+
+    } else if (newValue == 7) {
+        g_form.hideRelatedList('x_1020172_work_m_0_cmn_invoice_details');
+        g_form.setVisible('application_processing', false);
+        g_form.setVisible('business_case', true);
+        g_form.setVisible('capitalization', true);
+        g_form.setVisible('close_out_and_compl', true);
+        g_form.setVisible('construction_quote_and_invoice', false);
+        g_form.setVisible('cost_estimating_and_quoting', true);
+        g_form.setVisible('design_and_planning', true);
+        g_form.setVisible('design_fee_invoice', false);
+        g_form.setVisible('dip_fee_invoice', false);
+        g_form.setVisible('dip_and_dcr', false);
+        g_form.setVisible('qa_and_data_update', true);
+        g_form.setVisible('work_packing_and_procurement', true);
+        g_form.setVisible('works_delivery', true);
+
+    } else if (newValue == 8) {
+        g_form.hideRelatedList('x_1020172_work_m_0_cmn_invoice_details');
+        g_form.setVisible('application_processing', false);
+        g_form.setVisible('business_case', false);
+        g_form.setVisible('capitalization', false);
+        g_form.setVisible('close_out_and_compl', true);
+        g_form.setVisible('construction_quote_and_invoice', false);
+        g_form.setVisible('cost_estimating_and_quoting', false);
+        g_form.setVisible('design_and_planning', false);
+        g_form.setVisible('design_fee_invoice', false);
+        g_form.setVisible('dip_fee_invoice', false);
+        g_form.setVisible('dip_and_dcr', false);
+        g_form.setVisible('qa_and_data_update', true);
+        g_form.setVisible('work_packing_and_procurement', true);
+        g_form.setVisible('works_delivery', true);
+
+    } else if (newValue == 10) {
+        g_form.hideRelatedList('x_1020172_work_m_0_cmn_invoice_details');
+        g_form.hideRelatedList('x_1020172_work_m_0_wm_cw_job_details');
+        g_form.setVisible('application_processing', false);
+        g_form.setVisible('business_case', false);
+        g_form.setVisible('capitalization', false);
+        g_form.setVisible('close_out_and_compl', true);
+        g_form.setVisible('construction_quote_and_invoice', false);
+        g_form.setVisible('cost_estimating_and_quoting', false);
+        g_form.setVisible('design_and_planning', false);
+        g_form.setVisible('design_fee_invoice', false);
+        g_form.setVisible('dip_fee_invoice', false);
+        g_form.setVisible('dip_and_dcr', false);
+        g_form.setVisible('qa_and_data_update', true);
+        g_form.setVisible('work_packing_and_procurement', false);
+        g_form.setVisible('works_delivery', true);
+
+    } else if (newValue == 9 || newValue == 11 || newValue == 12) {
+        g_form.hideRelatedList('x_1020172_work_m_0_cmn_invoice_details');
+        g_form.hideRelatedList('x_1020172_work_m_0_wm_cw_job_details');
+        g_form.setVisible('application_processing', false);
+        g_form.setVisible('business_case', false);
+        g_form.setVisible('capitalization', false);
+        g_form.setVisible('close_out_and_compl', true);
+        g_form.setVisible('construction_quote_and_invoice', false);
+        g_form.setVisible('cost_estimating_and_quoting', true);
+        g_form.setVisible('design_and_planning', true);
+        g_form.setVisible('design_fee_invoice', false);
+        g_form.setVisible('dip_fee_invoice', false);
+        g_form.setVisible('dip_and_dcr', false);
+        g_form.setVisible('qa_and_data_update', true);
+        g_form.setVisible('work_packing_and_procurement', true);
+        g_form.setVisible('works_delivery', true);
+
+    } else if (newValue == 13 || newValue == 14 || newValue == 15) {
+        g_form.hideRelatedList('x_1020172_work_m_0_cmn_invoice_details');
+        g_form.hideRelatedList('x_1020172_work_m_0_wm_cw_job_details');
+        g_form.setVisible('application_processing', false);
+        g_form.setVisible('business_case', false);
+        g_form.setVisible('capitalization', false);
+        g_form.setVisible('close_out_and_compl', true);
+        g_form.setVisible('construction_quote_and_invoice', false);
+        g_form.setVisible('cost_estimating_and_quoting', false);
+        g_form.setVisible('design_and_planning', false);
+        g_form.setVisible('design_fee_invoice', false);
+        g_form.setVisible('dip_fee_invoice', false);
+        g_form.setVisible('dip_and_dcr', false);
+        g_form.setVisible('qa_and_data_update', true);
+        g_form.setVisible('work_packing_and_procurement', true);
+        g_form.setVisible('works_delivery', true);
+
+    } else if (newValue == 16 || newValue == 17 || newValue == 18) {
+        g_form.hideRelatedList('x_1020172_work_m_0_cmn_invoice_details');
+        g_form.hideRelatedList('x_1020172_work_m_0_wm_cw_job_details');
+        g_form.setVisible('application_processing', false);
+        g_form.setVisible('business_case', false);
+        g_form.setVisible('capitalization', false);
+        g_form.setVisible('close_out_and_compl', true);
+        g_form.setVisible('construction_quote_and_invoice', false);
+        g_form.setVisible('cost_estimating_and_quoting', true);
+        g_form.setVisible('design_and_planning', true);
+        g_form.setVisible('design_fee_invoice', false);
+        g_form.setVisible('dip_fee_invoice', false);
+        g_form.setVisible('dip_and_dcr', false);
+        g_form.setVisible('qa_and_data_update', false);
+        g_form.setVisible('work_packing_and_procurement', false);
+        g_form.setVisible('works_delivery', true);
+
+    } else if (newValue == 19) {
+        g_form.hideRelatedList('x_1020172_work_m_0_cmn_invoice_details');
+        g_form.hideRelatedList('x_1020172_work_m_0_wm_cw_job_details');
+        g_form.setVisible('application_processing', false);
+        g_form.setVisible('business_case', false);
+        g_form.setVisible('capitalization', false);
+        g_form.setVisible('close_out_and_compl', true);
+        g_form.setVisible('construction_quote_and_invoice', false);
+        g_form.setVisible('cost_estimating_and_quoting', false);
+        g_form.setVisible('design_and_planning', false);
+        g_form.setVisible('design_fee_invoice', false);
+        g_form.setVisible('dip_fee_invoice', false);
+        g_form.setVisible('dip_and_dcr', false);
+        g_form.setVisible('qa_and_data_update', true);
+        g_form.setVisible('work_packing_and_procurement', true);
+        g_form.setVisible('works_delivery', true);
+
+    } else {
+        g_form.setVisible('application_processing', false);
+        g_form.setVisible('business_case', false);
+        g_form.setVisible('capitalization', false);
+        g_form.setVisible('close_out_and_compl', false);
+        g_form.setVisible('construction_quote_and_invoice', false);
+        g_form.setVisible('cost_estimating_and_quoting', false);
+        g_form.setVisible('design_and_planning', false);
+        g_form.setVisible('design_fee_invoice', false);
+        g_form.setVisible('dip_fee_invoice', false);
+        g_form.setVisible('dip_and_dcr', false);
+        g_form.setVisible('qa_and_data_update', false);
+        g_form.setVisible('work_packing_and_procurement', false);
+        g_form.setVisible('works_delivery', false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 09:17:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3271370397ab75100ac1fef3a253af2d</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>On load For View</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_script_client_3271370397ab75100ac1fef3a253af2d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 13:24:53</sys_updated_on>
+        <table>x_1020172_work_m_0_wm_job_details</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

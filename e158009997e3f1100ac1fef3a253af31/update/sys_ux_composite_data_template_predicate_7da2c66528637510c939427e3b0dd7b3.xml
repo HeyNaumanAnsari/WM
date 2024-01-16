@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,short_description,number,opened_by</field_list>
+        <name>My Requests (task) predicate</name>
+        <order/>
+        <predicate_bundle display_value="My Requests (task) bundle">bda2c665f963751010d55a4f94a581b3</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-05 09:18:04</sys_created_on>
+        <sys_id>7da2c66528637510c939427e3b0dd7b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Requests (task) predicate</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_7da2c66528637510c939427e3b0dd7b3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-05 09:18:04</sys_updated_on>
+        <table>task</table>
+        <ux_template display_value="My Requests (task) template">71a2c665eb637510821b67a43b3c9bb5</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

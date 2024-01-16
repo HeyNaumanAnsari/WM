@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Work Management Config">e5a2c665976375100ac1fef3a253af93</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Activity</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(task)">f5a2c665186375104c460c6686b7a4bc</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>rec_tas_activity</route_type>
+        <screen_type display_value="Activity">39a2c66502637510c37943d25a22c0ba</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-05 09:18:03</sys_created_on>
+        <sys_id>31a2c66559637510b47528cc221768ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activity</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ux_app_route_31a2c66559637510b47528cc221768ba</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-05 09:18:03</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=31a2c66559637510b47528cc221768ba"/>
+</record_update>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Customer Details" section_id="3f97651997ebf1100ac1fef3a253af7c" sys_domain="global" table="x_1020172_work_m_0_wm_cf_job_details" version="3" view="Workspace-Work-Management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application_received_date</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ce058eae97a3b1100ac1fef3a253af6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complexity</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c2058eae97a3b1100ac1fef3a253af6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_connection</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c6058eae97a3b1100ac1fef3a253af6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_lot_number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ca058eae97a3b1100ac1fef3a253af6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_street_name</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ce058eae97a3b1100ac1fef3a253af6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_postcode</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c2058eae97a3b1100ac1fef3a253af6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_contact_mobile</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c6058eae97a3b1100ac1fef3a253af6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contestable_customer</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ca058eae97a3b1100ac1fef3a253af6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>competing_application_ref</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ce058eae97a3b1100ac1fef3a253af6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status_of_competing_application</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c2058eae97a3b1100ac1fef3a253af6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>substation_connection</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c6058eae97a3b1100ac1fef3a253af6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acknowledgement_letter_issued_date</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ca058eae97a3b1100ac1fef3a253af6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notify_customer_application_incomplete_date</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ce058eae97a3b1100ac1fef3a253af6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirmation_receipt_of_material_date</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c2058eae97a3b1100ac1fef3a253af6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relevant_tq_number</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c6058eae97a3b1100ac1fef3a253af6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ca058eae97a3b1100ac1fef3a253af6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>initial_enquiry_date</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ce058eae97a3b1100ac1fef3a253af6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_capacity_requested</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c2058eae97a3b1100ac1fef3a253af70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ct_metering</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c6058eae97a3b1100ac1fef3a253af70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_street_number</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ca058eae97a3b1100ac1fef3a253af70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_town_name</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ce058eae97a3b1100ac1fef3a253af70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_contact_number</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c2058eae97a3b1100ac1fef3a253af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>high_level_status</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c6058eae97a3b1100ac1fef3a253af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>retailer</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ca058eae97a3b1100ac1fef3a253af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority_of_related_competing_applications</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ce058eae97a3b1100ac1fef3a253af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>corresponding_access_application</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c2058eae97a3b1100ac1fef3a253af72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acknowledgement_letter_due_date</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c6058eae97a3b1100ac1fef3a253af72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application_complete</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ca058eae97a3b1100ac1fef3a253af72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_information_received_date</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>ce058eae97a3b1100ac1fef3a253af72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cancellation_date</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+            <sys_id>c2058eae97a3b1100ac1fef3a253af73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Customer Details</caption>
+            <header>false</header>
+            <name>x_1020172_work_m_0_wm_cf_job_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-04 12:41:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f97651997ebf1100ac1fef3a253af7c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1020172_work_m_0_wm_cf_job_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+            <sys_update_name>sys_ui_section_3f97651997ebf1100ac1fef3a253af7c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-08 12:02:18</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Work Management 0" name="Workspace-Work-Management-0">c0872dd520ebf1109863e5c282ab1750</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Management">e158009997e3f1100ac1fef3a253af31</application>
+        <file_path/>
+        <instance_id>6937715cdb81ff8042b321c405961910</instance_id>
+        <instance_name>dev82748</instance_name>
+        <name>sys_ui_section_3f97651997ebf1100ac1fef3a253af7c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Customer Details" section_id="3f97651997ebf1100ac1fef3a253af7c" sys_domain="global" table="x_1020172_work_m_0_wm_cf_job_details" version="3" view="Workspace-Work-Management-0"><sys_ui_element action="INSERT_OR_UPDATE"><element>application_received_date</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ce058eae97a3b1100ac1fef3a253af6b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>complexity</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c2058eae97a3b1100ac1fef3a253af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>type_of_connection</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c6058eae97a3b1100ac1fef3a253af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>site_lot_number</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ca058eae97a3b1100ac1fef3a253af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>site_street_name</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ce058eae97a3b1100ac1fef3a253af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>site_postcode</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c2058eae97a3b1100ac1fef3a253af6d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>site_contact_mobile</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c6058eae97a3b1100ac1fef3a253af6d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>contestable_customer</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ca058eae97a3b1100ac1fef3a253af6d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>competing_application_ref</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ce058eae97a3b1100ac1fef3a253af6d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status_of_competing_application</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c2058eae97a3b1100ac1fef3a253af6e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>substation_connection</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c6058eae97a3b1100ac1fef3a253af6e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>acknowledgement_letter_issued_date</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ca058eae97a3b1100ac1fef3a253af6e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>notify_customer_application_incomplete_date</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ce058eae97a3b1100ac1fef3a253af6e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>confirmation_receipt_of_material_date</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c2058eae97a3b1100ac1fef3a253af6f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>relevant_tq_number</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c6058eae97a3b1100ac1fef3a253af6f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ca058eae97a3b1100ac1fef3a253af6f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>initial_enquiry_date</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ce058eae97a3b1100ac1fef3a253af6f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>additional_capacity_requested</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c2058eae97a3b1100ac1fef3a253af70</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ct_metering</element><position>18</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c6058eae97a3b1100ac1fef3a253af70</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>site_street_number</element><position>19</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ca058eae97a3b1100ac1fef3a253af70</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>site_town_name</element><position>20</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ce058eae97a3b1100ac1fef3a253af70</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>site_contact_number</element><position>21</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c2058eae97a3b1100ac1fef3a253af71</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>high_level_status</element><position>22</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c6058eae97a3b1100ac1fef3a253af71</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>retailer</element><position>23</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ca058eae97a3b1100ac1fef3a253af71</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority_of_related_competing_applications</element><position>24</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ce058eae97a3b1100ac1fef3a253af71</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>corresponding_access_application</element><position>25</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c2058eae97a3b1100ac1fef3a253af72</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>acknowledgement_letter_due_date</element><position>26</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c6058eae97a3b1100ac1fef3a253af72</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>application_complete</element><position>27</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ca058eae97a3b1100ac1fef3a253af72</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>additional_information_received_date</element><position>28</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>ce058eae97a3b1100ac1fef3a253af72</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cancellation_date</element><position>29</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-08 12:02:19</sys_created_on><sys_id>c2058eae97a3b1100ac1fef3a253af73</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1020172_work_m_0_wm_cf_job_details" sys_domain="global" view="c0872dd520ebf1109863e5c282ab1750">3f97651997ebf1100ac1fef3a253af7c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Customer Details</caption><header>false</header><name>x_1020172_work_m_0_wm_cf_job_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-04 12:41:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3f97651997ebf1100ac1fef3a253af7c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1020172_work_m_0_wm_cf_job_details</sys_name><sys_overrides/><sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package><sys_policy/><sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope><sys_update_name>sys_ui_section_3f97651997ebf1100ac1fef3a253af7c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-08 12:02:18</sys_updated_on><sys_user/><title>true</title><view display_value="Workspace Work Management 0" name="Workspace-Work-Management-0">c0872dd520ebf1109863e5c282ab1750</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1602942866</payload_hash>
+        <record_name>WM CF Job Details</record_name>
+        <reverted_from/>
+        <source>3158009997e3f1100ac1fef3a253af34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 12:02:19</sys_created_on>
+        <sys_id>4e058eae97a3b1100ac1fef3a253af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ce8f3c6cd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 12:02:19</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>06058eae8aa3b110e6350ee922dbb276</update_guid>
+        <update_guid_history>06058eae8aa3b110e6350ee922dbb276:1602942866,71054eae8fa3b1105d2555ec112c3bf8:-129724530,27ae75e2eba3b1104d1ecba5a2678027:-1279814656,afae35e20fa3b110c8551532099929e9:-95036647</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 13:26:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2d5eebe74d014a06bfce32970ddbb949</sys_id>
+        <sys_metadata>3f97651997ebf1100ac1fef3a253af7c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Details</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_parent display_value="WM CF Job Details">46f9001d97e3f1100ac1fef3a253af4e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_scope_delete display_value="">305cf331e3bf402e916629c002514e51</sys_scope_delete>
+        <sys_update_name>sys_ui_section_3f97651997ebf1100ac1fef3a253af7c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_3f97651997ebf1100ac1fef3a253af7c">4e058eae97a3b1100ac1fef3a253af76</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 13:26:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

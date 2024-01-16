@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="31d97c9997e7f1100ac1fef3a253afb4" label="WM Job Additional Details" max_length="40" name="x_1020172_work_m_0_wm_job_additional_details" text_index="true" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Creation Date" max_length="40" name="creation_date" type="glide_date"/>
+        <element label="Customer Contact Number" max_length="40" name="customer_contact_number" type="string"/>
+        <element label="Customer Name" max_length="40" name="customer_name" type="string"/>
+        <element label="Job Description" max_length="1000" name="job_description" type="string"/>
+        <element label="Job Details" max_length="32" name="job_details" reference="x_1020172_work_m_0_wm_job_details" type="reference"/>
+        <element label="Job Owner" max_length="40" name="job_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Planned Finish Date" max_length="40" name="planned_finish_date" type="glide_date"/>
+        <element label="Planned Start Date" max_length="40" name="planned_start_date" type="glide_date"/>
+        <element label="Required By Date" max_length="40" name="required_by_date" type="glide_date"/>
+        <element label="Work Order Number" max_length="40" name="work_order_number" type="string"/>
+        <index name="index">
+            <element name="job_details"/>
+        </index>
+    </element>
+</database>

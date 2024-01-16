@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_notification_uiRoute</name>
+        <page display_value="Work Management">cc872dd509ebf110998aa96e4df09934</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 12:40:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>84872dd565ebf110a93f343255b0994f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_notification_uiRoute</sys_name>
+        <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_update_name>sys_ux_page_property_84872dd565ebf110a93f343255b0994f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 12:40:56</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1020172_work_m_0.cc872dd509ebf110998aa96e4df09934.root.chrome_notification_uiRoute</unique_name>
+        <value>cb1af195872023002941b53046cb0b4e</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=84872dd565ebf110a93f343255b0994f"/>
+</record_update>
