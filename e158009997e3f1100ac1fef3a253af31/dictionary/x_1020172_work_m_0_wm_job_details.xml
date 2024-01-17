@@ -11,6 +11,7 @@
             </choice>
         </element>
         <element label="Application Processing" max_length="40" name="application_processing" type="string"/>
+        <element label="Assigned" max_length="32" name="assigned" reference="sys_user" type="reference"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Business Case" max_length="40" name="business_case" type="string"/>
         <element label="Capitalization" max_length="40" name="capitalization" type="string"/>
@@ -85,18 +86,21 @@
             <element name="applicant_details"/>
         </index>
         <index name="index4">
-            <element name="assignment_group"/>
+            <element name="assigned"/>
         </index>
         <index name="index5">
-            <element name="cf_job_details"/>
+            <element name="assignment_group"/>
         </index>
         <index name="index6">
-            <element name="cw_job_details"/>
+            <element name="cf_job_details"/>
         </index>
         <index name="index7">
-            <element name="invoice_details"/>
+            <element name="cw_job_details"/>
         </index>
         <index name="index8">
+            <element name="invoice_details"/>
+        </index>
+        <index name="index9">
             <element name="raised_by"/>
         </index>
     </element>

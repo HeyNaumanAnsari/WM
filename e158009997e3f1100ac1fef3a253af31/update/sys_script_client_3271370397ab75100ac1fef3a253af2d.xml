@@ -19,12 +19,31 @@
     var roleWD = g_user.hasRoleExactly('x_1020172_work_m_0.wd_team');
     var roleCE = g_user.hasRoleExactly('x_1020172_work_m_0.ce_team');
     var newValue = g_form.getValue('job_type');
+    var status = g_form.getValue('status');
 
     g_form.setReadOnly('number', true);
     g_form.setReadOnly('status', true);
     g_form.setReadOnly('assignment_group', true);
 
-    if (roleAM) {
+    if (status == 'Completed') {
+        g_form.setReadOnly('application_processing', true);
+        g_form.setReadOnly('business_case', true);
+        g_form.setReadOnly('capitalization', true);
+        g_form.setReadOnly('close_out_and_compl', true);
+        g_form.setReadOnly('construction_quote_and_invoice', true);
+        g_form.setReadOnly('cost_estimating_and_quoting', true);
+        g_form.setReadOnly('design_and_planning', true);
+        g_form.setReadOnly('design_fee_invoice', true);
+        g_form.setReadOnly('dip_fee_invoice', true);
+        g_form.setReadOnly('dip_and_dcr', true);
+        g_form.setReadOnly('qa_and_data_update', true);
+        g_form.setReadOnly('work_packing_and_procurement', true);
+        g_form.setReadOnly('works_delivery', true);
+    }
+
+
+    if (roleAM && (status == 'Assigned' || status == 'Work Delivered')) {
+		g_form.setMandatory('comments',true);
         g_form.setReadOnly('business_case', false);
         g_form.setReadOnly('capitalization', false);
         g_form.setReadOnly('close_out_and_compl', false);
@@ -39,8 +58,9 @@
         g_form.setReadOnly('application_processing', true);
         g_form.setReadOnly('dip_fee_invoice', true);
 
-    } else if (roleWD) {
+    } else if (roleWD && (status == 'Delivery Soon')) {
         /**/
+		g_form.setMandatory('comments',true);
         g_form.setReadOnly('works_delivery', false);
 
         g_form.setReadOnly('application_processing', true);
@@ -55,7 +75,7 @@
         g_form.setReadOnly('dip_and_dcr', true);
         g_form.setReadOnly('qa_and_data_update', true);
         g_form.setReadOnly('work_packing_and_procurement', true);
-    } else if (roleCE) {
+    } else if (roleCE && (status == 'New' || status == 'Send Back')) {
         g_form.setReadOnly('application_processing', false);
         g_form.setReadOnly('dip_fee_invoice', false);
 
@@ -84,7 +104,9 @@
         g_form.setReadOnly('work_packing_and_procurement', true);
         g_form.setReadOnly('works_delivery', true);
     }
-
+    if (g_form.isNewRecord()) {
+        g_form.setValue('raised_by', g_user.userID);
+    }
 
     if (!g_form.isNewRecord()) {
         g_form.setReadOnly('job_type', true);
@@ -276,7 +298,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3271370397ab75100ac1fef3a253af2d</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>On load For View</sys_name>
         <sys_overrides/>
         <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
@@ -284,7 +306,7 @@
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
         <sys_update_name>sys_script_client_3271370397ab75100ac1fef3a253af2d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-12 13:24:53</sys_updated_on>
+        <sys_updated_on>2024-01-17 04:50:07</sys_updated_on>
         <table>x_1020172_work_m_0_wm_job_details</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

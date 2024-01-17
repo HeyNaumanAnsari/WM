@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>work_management</internal_name>
-        <label_cache>[{"name":"{{static.063aa17a9727f1100ac1fef3a253af08}}","label":"Asset Management Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛WM Job Details Record","reference":"x_1020172_work_m_0_wm_job_details","reference_display":"WM Job Details","type":"reference","base_type":"reference","attributes":{}},{"name":"448d2760-5fc0-46e0-ace2-44b7ee8c96b6.record","label":"1 - Update Record➛WM Job Details Record","reference":"x_1020172_work_m_0_wm_job_details","reference_display":"WM Job Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.f2b9297a9727f1100ac1fef3a253afa3}}","label":"Customer Experience Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"}]</label_cache>
+        <label_cache>[{"name":"{{static.f2b9297a9727f1100ac1fef3a253afa3}}","label":"Customer Experience Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"448d2760-5fc0-46e0-ace2-44b7ee8c96b6.record","label":"1 - Update Record➛WM Job Details Record","reference":"x_1020172_work_m_0_wm_job_details","reference_display":"WM Job Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛WM Job Details Record","reference":"x_1020172_work_m_0_wm_job_details","reference_display":"WM Job Details","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.063aa17a9727f1100ac1fef3a253af08}}","label":"Asset Management Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"}]</label_cache>
         <master_snapshot>a91fe9729767f1100ac1fef3a253afaf</master_snapshot>
         <name>Work Management</name>
         <natlang/>
@@ -22,14 +22,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 04:45:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f28a21fa9727f1100ac1fef3a253af79</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Work Management</sys_name>
         <sys_overrides/>
         <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
         <sys_update_name>sys_hub_flow_f28a21fa9727f1100ac1fef3a253af79</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:19:39</sys_updated_on>
+        <sys_updated_on>2024-01-17 04:53:24</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f28a21fa9727f1100ac1fef3a253af79"/>
@@ -92,10 +92,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 04:54:02</sys_created_on>
         <sys_id>0e9c21be9727f1100ac1fef3a253af8f</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:19:39</sys_updated_on>
+        <sys_updated_on>2024-01-17 04:53:23</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -149,7 +149,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -208,14 +208,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 04:54:02</sys_created_on>
         <sys_id>429c21be9727f1100ac1fef3a253af8b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:19:39</sys_updated_on>
+        <sys_updated_on>2024-01-17 04:53:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -232,7 +232,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -291,14 +291,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 04:54:01</sys_created_on>
         <sys_id>469c617e9727f1100ac1fef3a253af42</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:19:38</sys_updated_on>
+        <sys_updated_on>2024-01-17 04:53:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -313,7 +313,30 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=f28a21fa9727f1100ac1fef3a253af79"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f28a21fa9727f1100ac1fef3a253af79"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=f28a21fa9727f1100ac1fef3a253af79^sys_idNOT INd94e65df97e3b5100ac1fef3a253afc3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f28a21fa9727f1100ac1fef3a253af79^sys_idNOT INbe293ed197f731500ac1fef3a253af97,d94e65df97e3b5100ac1fef3a253afc3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Work Management">f28a21fa9727f1100ac1fef3a253af79</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 04:53:24</sys_created_on>
+        <sys_id>be293ed197f731500ac1fef3a253af97</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 04:53:24</sys_updated_on>
+        <ui_id>4756d09b-eddc-4239-bda7-099162329c1c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=be293ed197f731500ac1fef3a253af97"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3^id=be293ed197f731500ac1fef3a253af97"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=be293ed197f731500ac1fef3a253af97"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=be293ed197f731500ac1fef3a253af97"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -328,10 +351,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 18:18:18</sys_created_on>
         <sys_id>d94e65df97e3b5100ac1fef3a253afc3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 18:19:39</sys_updated_on>
+        <sys_updated_on>2024-01-17 04:53:23</sys_updated_on>
         <ui_id>201ab4ec-5e12-4fde-b271-7051def027fb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d94e65df97e3b5100ac1fef3a253afc3"/>
