@@ -2,22 +2,24 @@
     <ais_search_profile action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>This is default AI Search profile for Work Management</description>
+        <exclude_from_evaluation>false</exclude_from_evaluation>
         <genius_result_assembly/>
         <label>Work Management search profile</label>
         <name>x_1020172_work_m_0_adfnrp_search_profile</name>
         <publish_id>4b4c2134-9876-4894-b059-58d398587ca4</publish_id>
+        <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
         <state>DRAFT</state>
         <sys_class_name>ais_search_profile</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-04 12:40:55</sys_created_on>
         <sys_id>48872dd58febf1101c34966473172653</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Work Management search profile</sys_name>
         <sys_package display_value="Work Management" source="x_1020172_work_m_0">e158009997e3f1100ac1fef3a253af31</sys_package>
         <sys_policy/>
         <sys_scope display_value="Work Management">e158009997e3f1100ac1fef3a253af31</sys_scope>
         <sys_update_name>ais_search_profile_48872dd58febf1101c34966473172653</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 12:41:21</sys_updated_on>
+        <sys_updated_by>caitlin.reiniger</sys_updated_by>
+        <sys_updated_on>2024-03-05 06:53:13</sys_updated_on>
     </ais_search_profile>
 </record_update>
